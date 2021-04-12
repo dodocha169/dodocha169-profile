@@ -5,7 +5,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="../banana.png" width="60%"/>
+        <img className="Profile-logo" src="../banana.png" style={{
+
+        }}/>
         <h1>
           dodocha169
         </h1>
