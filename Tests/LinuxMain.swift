@@ -1,7 +1,7 @@
 import XCTest
 
-import dodocha169_profileTests
+import DodochaProfileTests
 
 var tests = [XCTestCaseEntry]()
-tests += dodocha169_profileTests.allTests()
+tests += DodochaProfileTests.allTests()
 XCTMain(tests)

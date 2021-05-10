@@ -1,22 +1,24 @@
 // swift-tools-version:5.3
 import PackageDescription
 let package = Package(
-    name: "dodocha169-profile",
+    name: "DodochaProfile",
     platforms: [.macOS(.v11)],
     products: [
-        .executable(name: "dodocha169-profile", targets: ["dodocha169-profile"])
+        .executable(name: "DodochaProfile", targets: ["DodochaProfile"])
     ],
     dependencies: [
-        .package(name: "Tokamak", url: "https://github.com/TokamakUI/Tokamak", from: "0.6.1")
+        .package(name: "Tokamak",
+                 url: "https://github.com/TokamakUI/Tokamak",
+                 Version(0,6,1) ..< Version(0,7,0)),
     ],
     targets: [
         .target(
-            name: "dodocha169-profile",
+            name: "DodochaProfile",
             dependencies: [
                 .product(name: "TokamakShim", package: "Tokamak")
             ]),
         .testTarget(
-            name: "dodocha169-profileTests",
-            dependencies: ["dodocha169-profile"]),
+            name: "DodochaProfileTests",
+            dependencies: ["DodochaProfile"]),
     ]
 )

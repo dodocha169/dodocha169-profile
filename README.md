@@ -1,3 +1,3 @@
-# dodocha169-profile
+# DodochaProfile
 
 A description of this package.
