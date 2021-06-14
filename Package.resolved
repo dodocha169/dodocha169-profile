@@ -51,8 +51,8 @@
         "repositoryURL": "https://github.com/evdwarf/tailwind-swift",
         "state": {
           "branch": null,
-          "revision": "38f67b950d941224bbb7b53c46b58fa87881450a",
-          "version": "0.1.0"
+          "revision": "6509f22ad7d9ca39e2f500995bedfcc391c10760",
+          "version": "0.2.5"
         }
       },
       {
@@ -69,8 +69,8 @@
         "repositoryURL": "https://github.com/evdwarf/tokamak-html-function-builder",
         "state": {
           "branch": null,
-          "revision": "2447b2b811fda0c507c65da384e66088d3a58ef8",
-          "version": "0.0.4"
+          "revision": "2272bd2918558c62952247642b2f0775b06afff8",
+          "version": "0.0.5"
         }
       }
     ]
